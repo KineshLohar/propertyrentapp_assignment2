@@ -1,0 +1,11 @@
+.home{
+    overflow: hidden;
+    width: 85vw;
+    max-width: 85vw;
+    margin: 1rem auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

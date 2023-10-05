@@ -1,0 +1,127 @@
+
+.propertyCard{
+    position: relative;
+    width: 25vw;
+    max-width: 27vw;
+    margin-inline: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0px 0px 2px #aaa8a8;
+}
+
+.cardHead{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    position: absolute;
+    width: 25vw;
+    z-index: 3;
+}
+
+.salerent{
+    padding: 0.7rem 1.2rem;
+    border-radius: 2rem;
+    background-color: white;
+    color: #373ae4;
+    box-shadow: 0px 0px 2px #000;
+    font-weight: 600;
+}
+
+.cardLike{
+    padding: 0.7rem;
+    border-radius: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 3px #000;
+    border: none;
+}
+.propImage{
+    object-fit: cover;
+    height: 18rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 1px #000;
+}
+
+.popularTag{
+    padding: 0.7rem;
+    width: 8vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    position: absolute;
+    top: 17rem;
+    color: white;
+    background-color: #373ae4;
+}
+
+.streetName{
+    width:21vw;
+    margin: 1rem auto;
+}
+
+.propertyName{
+    width: 22vw;
+    margin: auto;
+    line-height: 1.3;
+}
+
+.propertyFeatures{
+    display: flex;
+    width: 22vw;
+    margin: 1rem auto;
+    justify-content: space-evenly;
+}
+
+.propertyFeatures div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem; 
+}
+
+.propertyFeatures div p{
+    margin-top: 0.3rem;
+}
+
+.hrDivider{
+    width: 19vw;
+    margin: 0.3rem auto;
+    border-top: dotted;
+    opacity: 0.1;
+}
+
+.cardFooter{
+    padding: 1.5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    font-size: 1.5rem;
+    color: #373ae4;
+    font-weight: 600;
+}
+
+.price span{
+    font-size: 1rem;
+    color: #000;
+}
+
+.readMoreButton{
+    border: 2px solid #373ae4;
+    padding: 0.7rem 1.4rem 0.7rem 1.4rem;
+    border-radius: 2rem;
+    font-weight: 700;
+    color: #373ae4;
+}
+
